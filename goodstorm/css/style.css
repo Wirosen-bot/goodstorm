@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+@font-face {
+    font-family: "fnt"; 
+    src: url("../font/font.ttf") format("truetype"); 
+} 
+
+body{
+    background-color: rgb(220, 220, 220);
+    color: rgb(23, 23, 23);
+    font-family: "fnt";
+}
+
+a{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+input {outline:none;}
+
+.flexparent{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginform{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.inp{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px rgb(0, 0, 0) solid;
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mar{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.screen{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 200px;
+
+}
+
+.innerflexparent{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    
+}
+
+.block:hover{
+    border: 3px rgb(0, 157, 255) solid;
+}
+
+.icomain{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+
+.na{
+    margin-right: 10px;
+}
+
+.pers{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.blacked{
+    background-color: rgba(0, 0, 0, 0.087);
+}
+
+.pers img{
+    width: 45px;
+    height: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.pers p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.red{
+    color: Red;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.blue{
+    color: rgb(0, 102, 255);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#anim{
+    margin-top: 50px;
+}
+
+.inplogin{
+    width: 200px;
+    padding: 5px;
+    border: 3px black solid;
+    margin-top: 10px;
+}
+
+.btnlogin{
+    width: 150px;
+    padding: 5px;
+    border: 3px black solid;
+    color: rgb(255, 255, 255);
+    background-color: Black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.newuser{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.grey{
+    color: Grey;
+}
+
+.list{
+    width: 100%;
+}
+
+.wid{
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+}
+
+.unu{
+    width: 100%;
+    height: 50px;
+}
